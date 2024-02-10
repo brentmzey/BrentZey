@@ -12,6 +12,8 @@ application {
 }
 
 dependencies {
+    implementation(libs.kotlinxDatetime)
+    implementation(libs.uuid)
     implementation(projects.shared)
     implementation(libs.logback)
     implementation(libs.ktor.server.core)
